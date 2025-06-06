@@ -36,6 +36,6 @@ Specifically, the query should return the following info of each player on the r
 - Open new tab in terminal
 - Go to UI folder `cd UI`
 - Copy the `.env.example` file to `.env` by `cp .env.example .env` and update the values as needed
-- Run `npm run install` to install the dependencies
+- Run `npm install` to install the dependencies
 - Run `npm run dev` to run the development server
 - Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
