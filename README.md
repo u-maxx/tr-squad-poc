@@ -22,7 +22,7 @@ Specifically, the query should return the following info of each player on the r
  - Run `pipenv shell` to activate the virtual environment
  - Run `pre-commit install` to install pre-commit hooks
  - Copy the `app/.env.example` file to `app/.env` by `cp app/.env.example app/.env` and update the values as needed
- - Run `cd ../app && fastapi dev` to run the FastAPI app in development mode
+ - Run `cd ./app && fastapi dev` to run the FastAPI app in development mode
 ```
   ──── FastAPI CLI - Development mode ───────────╮
  │                                               │
