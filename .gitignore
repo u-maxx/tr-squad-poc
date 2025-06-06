@@ -12,6 +12,7 @@ build/
 ENV/
 venv/
 .env.*
+!.env.example
 *.env
 *.pkl
 *.sqlite3
