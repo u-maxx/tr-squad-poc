@@ -21,7 +21,7 @@ Specifically, the query should return the following info of each player on the r
  - Run `pipenv install --dev` to install all dependencies for a project (including dev)
  - Run `pipenv shell` to activate the virtual environment
  - Run `pre-commit install` to install pre-commit hooks
- - Copy the `app/.env.example` file to `app/.env` by `cp app/.env.example app/.env` and update the values as needed  (create GEMINI_API_KEY on https://ai.google.dev/gemini-api/docs/api-key and add it to .env)
+ - Copy the `app/.env.example` file to `app/.env` by `cp app/.env.example app/.env` and update the values as needed  (create GEMINI_API_KEY on https://ai.google.dev/gemini-api/docs/api-key and add it to `app/.env`)
  - Run `cd ./app && fastapi dev` to run the FastAPI app in development mode
 ```
   ──── FastAPI CLI - Development mode ───────────╮
