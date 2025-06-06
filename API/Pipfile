@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = { extras = ["standard"], version = "==0.115.*" }
+google-genai = "==1.19.*"
+python-dotenv = "==1.*"
+pydantic = "==2.11.*"
+pydantic-settings = "==2.9.*"
+
+[requires]
+python_version = "3.12"
+
+[dev-packages]
+pre-commit = "==4.2.*"
+
+[pipenv]
+disable_pip_input = false
